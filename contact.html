@@ -5,6 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact – Your Name</title>
   <style>
+    .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  min-width: 200px;
+  z-index: 1;
+}
+.dropdown-content a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #111;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
     body {
       margin: 0;
       font-family: 'Helvetica Neue', sans-serif;
